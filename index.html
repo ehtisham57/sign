@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Sign up</title>
+</head>
+<body id="body">
+    <div class="container">
+        <div class="heading">
+           
+        <h1>Sign up</h1>
+         <i class="fas fa-toggle-on" onclick="darkMode(this)"></i>
+    </div>
+    <div class="singup">
+        <form>
+        <input type="email" id="email" required placeholder="Enter Email">
+        <input type="password" id="password" required placeholder="Enter Password">
+        <i onclick="showPass(this)" class="fas fa-eye-slash">Show Password</i>
+        <button><a href="./html/login.html">sing up</a></button>
+        <p>You have an account?</p>
+        <a href="./html/login.html">login</a>
+    </form>
+    </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
